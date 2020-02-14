@@ -141,6 +141,23 @@ footer{
     margin-bottom: 10px;
     border-radius: 5px;
 }
+.dark h3{
+    margin-bottom: 10px;
+    
+}
+.dark form input[type=text]{
+    margin: 10px;
+}
+.dark form input[type=email]{
+    margin: 10px;
+}
+.dark form button[type=submit]{
+    margin: 15px !important;
+
+}
+.dark form textarea{
+    margin: 10px;
+}
 #services h4{
     color: #e8491d;
 }
