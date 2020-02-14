@@ -71,7 +71,7 @@ header a:hover{
 #newsletter{
     padding: 15px;
     color: white;
-    background: #35424a;
+    background: #5a6369;
 }
 #newsletter h1{
     float: left;
@@ -121,12 +121,26 @@ footer{
     background: #e8491d;
     text-align: center;
 }
-#main-column article{
-    float: left;
-    width: 65%;
+.page-title{
+    padding-left: 50px;
 }
-aside#sidebar{
-    float: right;
-    width: 30%;
+#main{
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#main article, #main aside{
+    padding: 10px;
+}
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: white;
     margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#services h4{
+    color: #e8491d;
 }
